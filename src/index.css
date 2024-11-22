@@ -1,0 +1,25 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+
+body{
+  padding: 0px 20px;
+  background-color: #f4f4f4;
+  transition: all .5s ease;
+}
+
+/* Global rang */
+:root {
+  --global-color: black;
+}
+
+/* Barcha elementlarga ta'sir */
+* {
+  color: var(--global-color);
+  transition: color 0.3s ease; /* Rang o'zgarishini muloyim qilish uchun */
+}
